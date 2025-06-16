@@ -6,19 +6,21 @@
 </head>
 <body>
     <center>
-    <h1>APPLICATION FORM</h1></center>
+    <img src="C:\Users\sriha\Downloads\TSRTC-6 logo.png">
+    
+    <h1>BUS PASS APPLICATION FORM</h1></center>
     <fieldset>
-        <legend>DETAILS:</legend>
+        <legend><h3>DETAILS:</h3></legend>
 <form>
     <label for="name">NAME:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input type="text"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+    <input type="text" required> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
     <label for="fname">Father's name:</label>
-    <input type="text">
+    <input type="text" required>
     <br>
     <br>
     <label for="date birth">Date of Birth:</label>
-    <input type="date"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-    <label for="gender">Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="date"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+    <label for="gender">Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="male">Male</label>
     <input type="radio" name="gender">
     <label for="female">Female</label>
@@ -36,12 +38,113 @@
     <input type="email">
     <br>
     <br>
-    <center>
-    <input type="submit"></center>
+    <label for="photo">PHOTO</label>&nbsp;&nbsp;&nbsp;
+    <input type="file">
+    
     
 
 </form>
     </fieldset>
+    <br>
+    <br>
+    <br>
+    <fieldset>
+    
+        <legend><h3>RESIDENTIAL ADDRESS DETAILS</h3></legend>
+
+<label for="name">APPLICANTS ADDRESS:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+    <label for="d name">DISTRICT:</label>
+    <select name="district" id="district">
+        <option value="HYDERBAD">HYDERBAD</option>
+        <option value="ADILABAD">ADILABAD</option>
+    </select>
+    <br>
+    <br>
+    <label for="mandal">MANDAL:</label>
+    <select name="district" id="district">
+        <option value="HYDERBAD">HYDERBAD</option>
+        <option value="ADILABAD">SECUNDRABAD</option>
+    </select>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="V NAME">VILLAGE:</label>
+    <select name="village" id="village">
+        <option value="HYDERBAD">HYDERBAD</option>
+    </select>
+    
+    <br>
+    <br>
+    <label for="PINCODE">PINCODE</label>
+    <input type="number">
+
+
+
+
+    </fieldset>
+    <fieldset>
+        <legend><h3> PASS TYPE DETAILS </h3></legend>
+        <br>
+
+<label for="C NAME">CITY:</label>
+    <select name="CITY" id="CITY">
+        <option value="HYDERBAD">HYDERBAD</option>
+    </select>
+    <br>
+    <br>
+    <label for="P TYPE">PASS TYPE::</label>
+    <select name="PASS TYPE" id="PASS TYPE">
+        <option value="select">----select------</option>
+        <option value="g pass">GREATER PASS</option>
+        <option value="O PASS">ORDINARY PASS</option>
+        <option value="M E PASS">METRO EXPRESS PASS</option>
+        <option value="M D PASS">METRO DELUXE PASS</option>
+    </select>
+
+    </fieldset>
+    <fieldset>
+<legend><h3>MODE OF PAYMENT & PASS COLLECTION</h3></legend>
+
+<label for="P MODE">PAYMENT MODE:</label>
+    <select name="P MODE" id="P MODE">
+        <option value="SELECT PAYMENT MODE">SELECT PAYMENT MODE</option>
+        <option value="P AT COUNTER">PAYMENT AT COUNTER</option>
+    </select>
+    <br>
+    <br>
+    <label for="P D MODE">PASS DELIVERY MODE:</label>
+    <select name="P MODE" id="P MODE">
+        <option value="SELECT PASS DELIVERY MODE">SELECT PASS DELIVERY MODE</option>
+        <option value="AT COUNTER"> AT COUNTER</option>
+    </select>
+    <br>
+    <br>
+    <label for="CENTRE AT WHICH YOU WANT COLLECT">CENTER AT WHICH YOU WANT TO COLLECT PASS:</label>
+    <select name="P MODE" id="P MODE">
+        <option value="SELECT">---SELECT---</option>
+        <option value="RTC UPPAL"> RTC - UPPAL</option>
+       <option value="RTC KUKATAPALLY"> RTC - KUKATAPALLY</option>
+<option value="RTC BALANAGAR"> RTC - BALANAGAR</option>
+<option value="RTC KPHB"> RTC - KPHB</option>
+<option value="RTC KOTI"> RTC - KOTI</option>
+<option value="RTC KACHIGUDA"> RTC - KACHIGUDA</option>
+    </select>
+    
+
+
+
+    </fieldset>
+    <br>
+    <br>
+    <center>
+    <label for=""></label>
+    <input type="text" placeholder="TWHsaK">
+    <br>
+    <br>
+    <label for=""></label>
+    <input type="text" placeholder="ENTER ABOUVE CAPTCHA">
+    <br>
+    <br>
+    <input type="submit">
+    </center>
 
 
 
